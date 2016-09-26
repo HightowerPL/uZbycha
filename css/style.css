@@ -1,0 +1,135 @@
+.ikony{
+		display: none;
+		border-top:2px;
+		border-top-color:white;
+}
+  a:link, a:visited{
+    text-decoration: none;
+  }
+  a:hover{
+		text-decoration: none;
+		color: #004B96;
+		cursor: pointer;
+  }
+  .affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  body{
+		font-size:16px;
+		line-height: 1.8;
+		color: #f5f6f7;
+  }
+  .container-fluid{
+		font-family: "Roboto Slab", serif;
+		letter-spacing: 0px;
+  }
+  .bg-1{
+		background:black;
+		color:white;
+		padding:0;
+		margin:0;
+  }
+  .bg-2{
+		background:white;
+		color:#003E7C;
+		padding-bottom:90px;
+  }
+  .bg-3{
+		background:#003E7C;
+		color:white;
+		padding-bottom:90px;
+  }
+  .bg-3 .col-sm-4 img{
+    display:block;
+		height:200px;
+		width:auto;
+		margin:0 auto;
+  }
+  .bg-4{
+		background:#E3930D;
+		color:white;
+		padding-bottom:90px;
+  }
+  h1{
+		font-family:Lobster,coursive;
+    padding-top:50px;
+		padding-bottom:50px;
+		font-weight:bold;
+  }
+  form{
+		border-radius:0px;
+  }
+  p{
+		font-size:18px;
+		word-spacing:4px;
+
+  }
+  margin {
+		margin-bottom:45px;
+  }
+  .navbar{
+	  font-family:Lobster,coursive;
+		-webkit-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
+		box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
+		background-color:#004B96;
+		border:0;
+		margin:0;
+		font-size: 24px;
+		font-weight:800;
+		letter-spacing:1px;
+		border-radius:0;
+  }
+  .navbar-nav li a:hover{
+		color: white !important;
+		height:100%;
+  }
+  #myNavbar li.active > a {
+    color: white;
+    background-color: #002B56;
+  }
+  .navbar-brand{
+		font-family: Lobster, cursive;
+		font-size: 7rem;
+		font-weight: bold;
+		text-shadow: 2px 2px black;
+		letter-spacing: 0px;
+  }
+  .navbar-brand a:hover{
+		color: white !important;
+  }
+  .row{
+		width: 80%;
+		margin: 0 auto;
+  }
+  .obrazki{
+		display:inline;
+  }
+  footer{
+		background-color:#966108;
+  	line-height:1;
+		padding-top:20px;
+		padding-bottom:20px;
+  }
+  footer p{
+  	font-size:12px;
+  }
+  footer a{
+		color:white;
+  }
+  footer a:hover{
+		color:white;
+		text-decoration:underline;
+  }
+  ul{
+		list-style:none;
+  }
+  ul img{
+		float:left;
+  }
